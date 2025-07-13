@@ -40,3 +40,50 @@ html, body {
   margin-bottom: 15px;
 }
 
+.contenedor2 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contenedor2 p {
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+.soporte {
+  margin-top: 15px;
+  font-size: 11px;
+  color: #555;
+}
