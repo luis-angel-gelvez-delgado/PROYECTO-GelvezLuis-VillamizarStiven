@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+body {
+  background: #f3f3f3;
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 3px solid #000;
+}
+
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 90px;            
+}
+
+.icon {
+  text-align: center;
+  font-size: 12px;
+}
+
+.icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.logo {
+  width: 50px;         
+}
+
+.perfil {
+  border-radius: 50%;
+}
+
+
+.pantalla-fullhd {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  max-height: 1080px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.icono-cumplimiento {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.area {
+  background: #eee;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.boton-container {
+  margin-top: 20px;
+}
+
+.btn-anadir {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-anadir:hover {
+  opacity: 0.9;
+}
