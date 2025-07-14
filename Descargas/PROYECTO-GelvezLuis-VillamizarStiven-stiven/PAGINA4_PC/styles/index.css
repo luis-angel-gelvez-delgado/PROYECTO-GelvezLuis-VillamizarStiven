@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black
+}
+
+.fondo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/pexels-pixabay-159400.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor2{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.logo {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor2 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contenedor2 p {
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+.soporte {
+  margin-top: 15px;
+  font-size: 11px;
+  color: #555;
+}
