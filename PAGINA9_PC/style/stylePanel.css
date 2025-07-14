@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255)
+}
+
+
+.container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  height: 50vh;
+  width: 100vh;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+  z-index: 1;
+  
+}
+h1{
+    font-size: medium;
+}
+
+.botonsi{
+    padding: 1.5vi;
+    width:  10vh;
+    color: white;
+    background-color: orangered;
+}
+.botonno{
+    padding: 1.5vi;
+    width: 10vh;
+    color: white;
+    background-color: orangered;
+}
