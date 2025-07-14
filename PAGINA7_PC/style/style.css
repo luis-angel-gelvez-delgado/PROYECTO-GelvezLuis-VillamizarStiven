@@ -94,3 +94,28 @@ th, td {
   height: 40px;
   object-fit: contain;
 }
+
+.area {
+  background: #eee;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.boton-container {
+  margin-top: 20px;
+}
+
+.btn-anadir {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-anadir:hover {
+  opacity: 0.9;
+}
