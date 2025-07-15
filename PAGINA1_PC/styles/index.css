@@ -28,3 +28,22 @@ html, body {
   width: 120px; 
   height: auto;
 }
+
+.flecha {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: rgb(240, 120, 23);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(19, 19, 19, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.flecha:hover {
+  background-color: darkorange;
+  transform: scale(1.1);
+}
